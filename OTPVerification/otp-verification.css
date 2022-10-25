@@ -12,6 +12,7 @@
 .page-container {
   max-width: 100vw;
   height: auto;
+  background-color: #f8f8f8;
 }
 
 .page-container .page-content {
@@ -21,11 +22,8 @@
   margin: 0 auto;
 
   margin-top: 126px;
-  background-color: #f8f8f8;
 
   overflow-x: hidden;
-
-  border: 2px solid blue;
 }
 
 .page-container .fixed-top-bar {
@@ -247,8 +245,6 @@
   justify-content: center;
   align-items: center;
 
-  border: 3px solid red;
-
   margin: 0 auto;
 }
 
@@ -424,8 +420,6 @@
   min-height: 385px;
   background: #000000;
 
-  border: 2px solid red;
-
   padding: 100px;
 }
 
@@ -437,7 +431,6 @@
 
 .footer-container .upper-footer .footer-left {
   width: 30%;
-  border: 2px solid yellow;
 }
 
 .footer-container .upper-footer .footer-left .logo-and-text {
@@ -462,7 +455,6 @@
 
 .footer-container .upper-footer .footer-right {
   width: 70%;
-  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -470,7 +462,6 @@
 
 .footer-container .upper-footer .footer-right .footer-col {
   flex: 1;
-  border: 2px solid red;
 }
 
 .footer-container .upper-footer .footer-right .footer-col .col-head {
@@ -558,6 +549,10 @@
   width: 15px;
   height: 15px;
   object-fit: contain;
+}
+
+.footer-container .upper-footer .footer-right .footer-col .link-box:hover {
+  background: rgba(58, 58, 58, 0.7);
 }
 
 .page-container
