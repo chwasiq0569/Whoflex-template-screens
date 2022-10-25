@@ -45,8 +45,15 @@
               <p>My Classroom</p>
             </div>
             <div class="nav-item-container">
-              <img src="../assets/cart.svg" alt="nav_item_icon" />
+              <img src="../assets/cart.png" alt="nav_item_icon" />
               <p>Cart</p>
+            </div>
+            <div class="nav-item-container">
+              <img
+                style="margin-top: 8px"
+                src="../assets/simplemenu.png"
+                alt="nav_item_icon"
+              />
             </div>
             <div class="user-profile">
               <img
@@ -74,11 +81,52 @@
             <div class="input-field-container">
               <label for="otp-code">6-digit code</label><br />
               <input
-                type="email"
+                class="otp-input-desktop"
+                type="number"
                 id="otp-code"
                 name="otp-code"
                 placeholder="Enter 6 digit code"
+                maxlength="6"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
               />
+              <div class="otp-input-mobile">
+                <input
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type="number"
+                  maxlength="1"
+                  type="number"
+                />
+                <input
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type="number"
+                  maxlength="1"
+                  type="number"
+                />
+                <input
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type="number"
+                  maxlength="1"
+                  type="number"
+                />
+                <input
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type="number"
+                  maxlength="1"
+                  type="number"
+                />
+                <input
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type="number"
+                  maxlength="1"
+                  type="number"
+                />
+                <input
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  type="number"
+                  maxlength="1"
+                  type="number"
+                />
+              </div>
               <p>Resend code</p>
             </div>
             <button class="form-btn form-submit-btn">Reset Password</button>
