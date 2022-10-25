@@ -77,6 +77,8 @@
   display: flex;
   background-color: #ffffff;
   justify-content: space-between;
+
+  z-index: 1;
 }
 
 .page-container .fixed-top-bar .navigation-container .nav-left {
